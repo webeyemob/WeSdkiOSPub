@@ -2,7 +2,7 @@ Pod::Spec.new do |spec|
   spec.name         = "WeSdkMediation_MoPub"
   spec.version      = "5.6.0.2"
   spec.summary      = "MoPub Adapters for mediating through WeSdk."
-  spec.homepage     = "https://github.com/webeyemob/WeSdk-iOS-Pub"
+  spec.homepage     = "https://github.com/webeyemob/WeSdkiOSPub"
   spec.license      = { :type => 'MIT' }
   spec.author       = "WeSdk"
   spec.platform     = :ios, "9.0"
