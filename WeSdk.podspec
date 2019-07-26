@@ -1,6 +1,6 @@
 Pod::Spec.new do |spec|
   spec.name         = "WeSdk"
-  spec.version      = "1.2.1"
+  spec.version      = "1.2.2"
   spec.summary      = "WeSdk is Mobile Ad SDK."
   spec.homepage     = "https://github.com/webeyemob/WeSdkiOSPub"
   spec.license      = { :type => 'MIT' }
