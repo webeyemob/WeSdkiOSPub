@@ -2,7 +2,7 @@ Pod::Spec.new do |spec|
   spec.name         = "WeSdkMediation_Maio"
   spec.version      = "1.4.6.2"
   spec.summary      = "Maio Adapters for mediating through WeSdk."
-  spec.homepage     = "https://github.com/webeyemob/WeSdkiOSPub.git"
+  spec.homepage     = "https://github.com/webeyemob/WeSdkiOSPub"
   spec.license      = { :type => 'MIT' }
   spec.author       = "WeSdk"
   spec.platform     = :ios, "8.0"
