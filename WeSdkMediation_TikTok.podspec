@@ -7,7 +7,7 @@ Pod::Spec.new do |spec|
   spec.author       = "WeSdk"
   spec.platform     = :ios, "8.0"
   spec.source       = { :git => "https://github.com/webeyemob/WeSdkiOSPub.git", :tag => "tiktok-#{spec.version}" }
-  spec.vendored_frameworks  = "WeSdkMediation_TikTok/#{spec.version}/WeSdkMediation_TikTok.framework"
+  spec.vendored_frameworks  = "WeSdkMediation_TikTok/#{spec.version}/WeMobMediation_TikTok.framework"
   spec.dependency 'Bytedance-UnionAD', '~> 2.1.0.1'
   spec.dependency "WeSdk", "~> 1.2.2"
 end
