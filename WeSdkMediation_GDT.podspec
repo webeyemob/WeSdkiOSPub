@@ -9,5 +9,5 @@ Pod::Spec.new do |spec|
   spec.source       = { :git => "https://github.com/webeyemob/WeSdkiOSPub.git", :tag => "gdt-#{spec.version}" }
   spec.vendored_frameworks  = "WeSdkMediation_GDT/#{spec.version}/WeSdkMediation_GDT.framework"
   spec.dependency 'GDTMobSDK', '~> 4.10.7'
-  spec.dependency "WeSdk", "~> 1.2.3"
+  spec.dependency "WeSdk", "~> 1.2.4"
 end
