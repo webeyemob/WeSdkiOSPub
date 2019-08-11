@@ -9,5 +9,5 @@ Pod::Spec.new do |spec|
   spec.source       = { :git => "https://github.com/webeyemob/WeSdkiOSPub.git", :tag => "chartboost-#{spec.version}" }
   spec.vendored_frameworks  = "WeSdkMediation_Chartboost/#{spec.version}/WeMobMediation_Chartboost.framework"
   spec.dependency 'ChartboostSDK', '~> 8.0.1'
-  spec.dependency "WeSdk", "~> 1.2.4"
+  spec.dependency "WeSdk", "~> 1.2.5"
 end

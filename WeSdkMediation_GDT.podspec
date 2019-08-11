@@ -1,6 +1,6 @@
 Pod::Spec.new do |spec|
   spec.name         = "WeSdkMediation_GDT"
-  spec.version      = "4.10.7.0"
+  spec.version      = "4.10.7.1"
   spec.summary      = "GDT Adapters for mediating through WeSdk."
   spec.homepage     = "https://github.com/webeyemob/WeSdkiOSPub"
   spec.license      = { :type => 'MIT' }
@@ -9,5 +9,5 @@ Pod::Spec.new do |spec|
   spec.source       = { :git => "https://github.com/webeyemob/WeSdkiOSPub.git", :tag => "gdt-#{spec.version}" }
   spec.vendored_frameworks  = "WeSdkMediation_GDT/#{spec.version}/WeMobMediation_GDT.framework"
   spec.dependency 'GDTMobSDK', '~> 4.10.7'
-  spec.dependency "WeSdk", "~> 1.2.4"
+  spec.dependency "WeSdk", "~> 1.2.5"
 end

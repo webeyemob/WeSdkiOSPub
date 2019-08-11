@@ -9,5 +9,5 @@ Pod::Spec.new do |spec|
   spec.source       = { :git => "https://github.com/webeyemob/WeSdkiOSPub.git", :tag => "amazon-#{spec.version}" }
   spec.vendored_frameworks  = "WeSdkMediation_Amazon/#{spec.version}/WeMobMediation_Amazon.framework"
   spec.dependency 'AmazonAdSDK', '2.0.16'
-  spec.dependency "WeSdk", "~> 1.2.1"
+  spec.dependency "WeSdk", "~> 1.2.5"
 end

@@ -9,5 +9,5 @@ Pod::Spec.new do |spec|
   spec.source       = { :git => "https://github.com/webeyemob/WeSdkiOSPub.git", :tag => "unityads-#{spec.version}" }
   spec.vendored_frameworks  = "WeSdkMediation_UnityAds/#{spec.version}/WeMobMediation_UnityAds.framework"
   spec.dependency 'UnityAds', '~> 3.1.0'
-  spec.dependency "WeSdk", "~> 1.2.1"
+  spec.dependency "WeSdk", "~> 1.2.5"
 end
