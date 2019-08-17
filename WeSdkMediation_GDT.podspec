@@ -1,6 +1,6 @@
 Pod::Spec.new do |spec|
   spec.name         = "WeSdkMediation_GDT"
-  spec.version      = "4.10.7.1"
+  spec.version      = "4.10.7.2"
   spec.summary      = "GDT Adapters for mediating through WeSdk."
   spec.homepage     = "https://github.com/webeyemob/WeSdkiOSPub"
   spec.license      = { :type => 'MIT' }

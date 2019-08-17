@@ -1,0 +1,6 @@
+framework module WeMobMediation_GDT {
+  umbrella header "WeMobMediation_GDT.h"
+
+  export *
+  module * { export * }
+}

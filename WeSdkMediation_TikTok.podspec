@@ -1,6 +1,6 @@
 Pod::Spec.new do |spec|
   spec.name         = "WeSdkMediation_TikTok"
-  spec.version      = "2.1.0.1.5"
+  spec.version      = "2.1.0.1.6"
   spec.summary      = "TikTok Adapters for mediating through WeSdk."
   spec.homepage     = "https://github.com/webeyemob/WeSdkiOSPub"
   spec.license      = { :type => 'MIT' }

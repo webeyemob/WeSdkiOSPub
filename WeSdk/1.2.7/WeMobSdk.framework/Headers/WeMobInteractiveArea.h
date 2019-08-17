@@ -20,7 +20,8 @@ typedef NS_OPTIONS(NSUInteger, WeMobInteractiveView) {
     WEMOB_INTERACTIVE_VIEW_RATING_VIEW = 1 << 8,
     WEMOB_INTERACTIVE_VIEW_RATING_LABEL = 1 << 9,
     WEMOB_INTERACTIVE_VIEW_PRICE = 1 << 10,
-    WEMOB_INTERACTIVE_VIEW_STORE = 1 << 11
+    WEMOB_INTERACTIVE_VIEW_STORE = 1 << 11,
+    WEMOB_INTERACTIVE_VIEW_ROOTVIEW = 1 << 12
 };
 
 @interface WeMobInteractiveArea : NSObject
@@ -40,6 +41,7 @@ typedef NS_OPTIONS(NSUInteger, WeMobInteractiveView) {
 -(WeMobInteractiveArea *)addRatingLabel;
 -(WeMobInteractiveArea *)addPrice;
 -(WeMobInteractiveArea *)addStore;
+-(WeMobInteractiveArea *)addRootView;
 
 -(BOOL)hasTitle;
 -(BOOL)hasSubTitle;
@@ -53,5 +55,6 @@ typedef NS_OPTIONS(NSUInteger, WeMobInteractiveView) {
 -(BOOL)hasRatingLabel;
 -(BOOL)hasPrice;
 -(BOOL)hasStore;
+-(BOOL)hasRootView;
 
 @end
