@@ -1,0 +1,6 @@
+framework module WeMobMediation_Vungle {
+  umbrella header "WeMobMediation_Vungle.h"
+
+  export *
+  module * { export * }
+}
