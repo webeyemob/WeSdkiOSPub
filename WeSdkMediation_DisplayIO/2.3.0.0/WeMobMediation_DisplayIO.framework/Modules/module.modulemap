@@ -1,6 +1,0 @@
-framework module WeMobMediation_DisplayIO {
-  umbrella header "WeMobMediation_DisplayIO.h"
-
-  export *
-  module * { export * }
-}
