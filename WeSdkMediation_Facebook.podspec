@@ -9,5 +9,5 @@ Pod::Spec.new do |spec|
   spec.source       = { :git => "https://github.com/webeyemob/WeSdkiOSPub.git", :tag => "facebook-#{spec.version}" }
   spec.vendored_frameworks  = "WeSdkMediation_Facebook/#{spec.version}/WeMobMediation_Facebook.framework"
   spec.dependency 'FBAudienceNetwork', '~> 5.4.0'
-  spec.dependency "WeSdk", "~> 1.2.5"
+  spec.dependency "WeSdk", "~> 1.2.8"
 end
