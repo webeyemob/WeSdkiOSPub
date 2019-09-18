@@ -7,7 +7,7 @@ Pod::Spec.new do |spec|
   spec.author       = "WeSdk"
   spec.platform     = :ios, "10.0"
   spec.source       = { :git => "https://github.com/webeyemob/WeSdkiOSPub.git", :tag => "flurry-#{spec.version}" }
-  spec.vendored_frameworks  = "WeSdkMediation_AdGeneration/#{spec.version}/WeMobMediation_Flurry.framework"
+  spec.vendored_frameworks  = "WeSdkMediation_Flurry/#{spec.version}/WeMobMediation_Flurry.framework"
   spec.dependency 'Flurry-iOS-SDK/FlurrySDK', '9.3.1'
   spec.dependency 'Flurry-iOS-SDK/FlurryAds', '9.3.1'
   spec.dependency "WeSdk", "~> 1.2.9"
