@@ -1,6 +1,6 @@
 Pod::Spec.new do |spec|
   spec.name         = "WeSdkMediation_Flurry"
-  spec.version      = "9.3.1.0"
+  spec.version      = "10.0.0.0"
   spec.summary      = "Flurry Adapters for mediating through WeSdk."
   spec.homepage     = "https://github.com/webeyemob/WeSdkiOSPub"
   spec.license      = { :type => 'MIT' }
@@ -8,7 +8,7 @@ Pod::Spec.new do |spec|
   spec.platform     = :ios, "10.0"
   spec.source       = { :git => "https://github.com/webeyemob/WeSdkiOSPub.git", :tag => "flurry-#{spec.version}" }
   spec.vendored_frameworks  = "WeSdkMediation_Flurry/#{spec.version}/WeMobMediation_Flurry.framework"
-  spec.dependency 'Flurry-iOS-SDK/FlurrySDK', '9.3.1'
-  spec.dependency 'Flurry-iOS-SDK/FlurryAds', '9.3.1'
+  spec.dependency 'Flurry-iOS-SDK/FlurrySDK', '10.0.0'
+  spec.dependency 'Flurry-iOS-SDK/FlurryAds', '10.0.0'
   spec.dependency "WeSdk", "~> 1.2.9"
 end
