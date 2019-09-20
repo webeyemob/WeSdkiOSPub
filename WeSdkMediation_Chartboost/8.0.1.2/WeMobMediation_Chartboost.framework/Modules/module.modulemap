@@ -1,0 +1,6 @@
+framework module WeMobMediation_Chartboost {
+  umbrella header "WeMobMediation_Chartboost.h"
+
+  export *
+  module * { export * }
+}

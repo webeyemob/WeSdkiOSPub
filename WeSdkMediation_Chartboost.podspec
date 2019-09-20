@@ -1,6 +1,6 @@
 Pod::Spec.new do |spec|
   spec.name         = "WeSdkMediation_Chartboost"
-  spec.version      = "8.0.1.1"
+  spec.version      = "8.0.1.2"
   spec.summary      = "Chartboost Adapters for mediating through WeSdk."
   spec.homepage     = "https://github.com/webeyemob/WeSdkiOSPub"
   spec.license      = { :type => 'MIT' }
