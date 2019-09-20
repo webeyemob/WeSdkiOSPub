@@ -9,5 +9,5 @@ Pod::Spec.new do |spec|
   spec.source       = { :git => "https://github.com/webeyemob/WeSdkiOSPub.git", :tag => "adgeneration-#{spec.version}" }
   spec.vendored_frameworks  = "WeSdkMediation_AdGeneration/#{spec.version}/WeMobMediation_AdGeneration.framework"
   spec.dependency 'AdGeneration', '2.16.0'
-  spec.dependency "WeSdk", "~> 1.2.9"
+  spec.dependency "WeSdk"
 end
