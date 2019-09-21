@@ -9,5 +9,5 @@ Pod::Spec.new do |spec|
   spec.source       = { :git => "https://github.com/webeyemob/WeSdkiOSPub.git", :tag => "vungle-#{spec.version}" }
   spec.vendored_frameworks  = "WeSdkMediation_Vungle/#{spec.version}/WeMobMediation_Vungle.framework"
   spec.dependency 'VungleSDK-iOS', '~> 6.3.2'
-  spec.dependency "WeSdk", "~> 1.2.5"
+  spec.dependency "WeSdk"
 end
