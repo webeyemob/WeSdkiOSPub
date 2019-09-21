@@ -9,5 +9,5 @@ Pod::Spec.new do |spec|
   spec.source       = { :git => "https://github.com/webeyemob/WeSdkiOSPub.git", :tag => "displayio-#{spec.version}" }
   spec.vendored_frameworks  = "WeSdkMediation_DisplayIO/#{spec.version}/WeMobMediation_DisplayIO.framework"
   spec.dependency 'DIOSDK', '~> 2.3.0'
-  spec.dependency "WeSdk", "~> 1.2.5"
+  spec.dependency "WeSdk"
 end
