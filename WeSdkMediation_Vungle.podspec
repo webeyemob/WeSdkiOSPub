@@ -1,6 +1,6 @@
 Pod::Spec.new do |spec|
   spec.name         = "WeSdkMediation_Vungle"
-  spec.version      = "6.3.2.0"
+  spec.version      = "6.3.2.1"
   spec.summary      = "Vungle Adapters for mediating through WeSdk."
   spec.homepage     = "https://github.com/webeyemob/WeSdkiOSPub"
   spec.license      = { :type => 'MIT' }
