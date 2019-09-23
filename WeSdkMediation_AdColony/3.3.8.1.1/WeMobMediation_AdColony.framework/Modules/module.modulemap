@@ -1,0 +1,6 @@
+framework module WeMobMediation_AdColony {
+  umbrella header "WeMobMediation_AdColony.h"
+
+  export *
+  module * { export * }
+}
