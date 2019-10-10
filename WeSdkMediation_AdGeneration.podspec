@@ -6,8 +6,8 @@ Pod::Spec.new do |spec|
   spec.license      = { :type => 'MIT' }
   spec.author       = "WeSdk"
   spec.platform     = :ios, "10.0"
-  spec.source       = { :git => "https://github.com/webeyemob/WeSdkiOSPub.git", :tag => "adgeneration-#{spec.version}" }
-  spec.vendored_frameworks  = "WeSdkMediation_AdGeneration/#{spec.version}/WeMobMediation_AdGeneration.framework"
+  spec.source       = { :http => "https://github.com/webeyemob/WeSdkiOSPub/raw/master/WeSdkMediation_AdGeneration/#{spec.version}.zip" }
+  spec.vendored_frameworks  = "#{spec.version}/WeMobMediation_AdGeneration.framework"
   spec.dependency 'AdGeneration', '~> 2.15.2'
   spec.dependency "WeSdk"
 end
