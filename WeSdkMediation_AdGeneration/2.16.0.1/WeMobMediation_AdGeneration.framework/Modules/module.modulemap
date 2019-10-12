@@ -1,6 +1,0 @@
-framework module WeMobMediation_AdGeneration {
-  umbrella header "WeMobMediation_AdGeneration.h"
-
-  export *
-  module * { export * }
-}
