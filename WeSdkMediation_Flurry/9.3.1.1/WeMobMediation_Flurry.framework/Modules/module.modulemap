@@ -1,6 +1,0 @@
-framework module WeMobMediation_Flurry {
-  umbrella header "WeMobMediation_Flurry.h"
-
-  export *
-  module * { export * }
-}

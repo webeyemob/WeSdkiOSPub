@@ -8,7 +8,7 @@ Pod::Spec.new do |spec|
   spec.platform     = :ios, "10.0"
   spec.source       = { :http => "https://github.com/webeyemob/WeSdkiOSPub/raw/master/WeSdkMediation_Flurry/#{spec.version}.zip" }
   spec.vendored_frameworks  = "#{spec.version}/WeMobMediation_Flurry.framework"
-  spec.dependency 'Flurry-iOS-SDK/FlurrySDK', '10.0.2.0'
-  spec.dependency 'Flurry-iOS-SDK/FlurryAds', '10.0.2.0'
+  spec.dependency 'Flurry-iOS-SDK/FlurrySDK', '10.0.2'
+  spec.dependency 'Flurry-iOS-SDK/FlurryAds', '10.0.2'
   spec.dependency "WeSdk"
 end
