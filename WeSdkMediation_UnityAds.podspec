@@ -3,7 +3,7 @@ Pod::Spec.new do |spec|
   spec.version      = "3.3.0.0"
   spec.summary      = "UnityAds Adapters for mediating through WeSdk."
   spec.homepage     = "https://github.com/webeyemob/WeSdkiOSPub"
-  spec.license      = { :type => 'MIT' }
+  spec.license      = { :type => 'MIT', :file => "#{spec.version}/LICENSE" }
   spec.author       = "WeSdk"
   spec.platform     = :ios, "9.0"
   spec.source       = { :http => "https://github.com/webeyemob/WeSdkiOSPub/raw/master/WeSdkMediation_UnityAds/#{spec.version}.zip" }
