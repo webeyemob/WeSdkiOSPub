@@ -1,0 +1,6 @@
+framework module WeMobMediation_IronSource {
+  umbrella header "WeMobMediation_IronSource.h"
+
+  export *
+  module * { export * }
+}
